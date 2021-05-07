@@ -1,0 +1,9 @@
+// https://code.visualstudio.com/docs/languages/jsconfig
+{
+  "compilerOptions": {
+    // baseUrl is the path used for pathless / naked node module includes
+    "baseUrl": "../layer/node_modules/",
+    "moduleResolution": "node",
+    "module": "commonJS"
+  }
+}
